@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Weather &amp; City Tracker</string>
+    <string name="tab_weather">Weather</string>
+    <string name="tab_favorites">Favorites</string>
+    <string name="tab_history">History</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- UI Actions -->
+    <string name="search_city_hint">Search city (e.g. Bengaluru, London)...</string>
+    <string name="action_view_on_map">View on Map</string>
+    <string name="action_share">Share Weather</string>
+    <string name="action_refresh">Refresh Weather</string>
+    <string name="action_add_favorite">Add to Favorites</string>
+    <string name="action_remove_favorite">Remove Favorite</string>
+    <string name="action_clear_history">Clear History</string>
+
+    <!-- Implicit Intent Strings -->
+    <string name="share_chooser_title">Share Weather Report Via</string>
+    <string name="share_weather_template">Current weather in %1$s: %2$.1f°%3$s, %4$s. Humidity: %5$d%%, Wind: %6$.1f %7$s. Shared via Weather &amp; City Tracker.</string>
+    <string name="error_no_map_app">No map app found, opening in web browser...</string>
+    <string name="error_no_browser">No browser app found on device.</string>
+    <string name="error_no_email_client">No email app found on device.</string>
+</resources>

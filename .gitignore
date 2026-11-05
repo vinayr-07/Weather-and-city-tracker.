@@ -1,0 +1,21 @@
+*.iml
+.gradle
+/local.properties
+.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Agent & Persistent Memory (Out of scope for repository)
+.agent/
+.agents/
+CONTEXT_AND_MEMORY.md
+
+# Course Assignment & Guideline Documents
+*.xlsx
+*.pdf
+Level 3 - assignment.xlsx
+Level3-Mini-Project-guidelines-1.pdf
