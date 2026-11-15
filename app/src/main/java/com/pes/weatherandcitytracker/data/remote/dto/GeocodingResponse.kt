@@ -1,0 +1,26 @@
+package com.pes.weatherandcitytracker.data.remote.dto
+
+import com.google.gson.annotations.SerializedName
+
+data class GeocodingResponse(
+    @SerializedName("results")
+    val results: List<GeocodingResultDto>? = null
+)
+
+data class GeocodingResultDto(
+    @SerializedName("id")
+    val id: Int,
+    @SerializedName("name")
+    val name: String,
+    @SerializedName("latitude")
+    val latitude: Double,
+    @SerializedName("longitude")
+    val longitude: Double,
+    @SerializedName("country")
+    val country: String? = null,
+    @SerializedName("country_code")
+    val countryCode: String? = null,
+    @SerializedName("admin1")
+    val admin1: String? = null
+)
+
